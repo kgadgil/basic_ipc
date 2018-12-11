@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-    const char * target= "./hello.py";
+    const char * target= "./top_block.py";
 
     enum PIPE_FILE_DESCRIPTERS {
         READ_FD = 0, WRITE_FD = 1

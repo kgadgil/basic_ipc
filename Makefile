@@ -9,7 +9,7 @@ CPPFLAGS = -std=c++11 -pthread -ggdb
 #LDFLAGS
 
 #SOURCES = unnamed_pipe.cpp
-SOURCES = peepsqueak.cpp
+SOURCES = pipe_from_py_script.cpp
 
 all: ipc
 
