@@ -10,7 +10,8 @@ using namespace std;
 
 int main()
 {
-    const char * target= "./top_block.py";
+    //const char * target= "./top_block.py";
+    const char * target= "./pipe_filter_test1.py";
 
     enum PIPE_FILE_DESCRIPTERS {
         READ_FD = 0, WRITE_FD = 1

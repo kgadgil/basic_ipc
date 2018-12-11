@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Tue Dec 11 15:52:47 2018
+# Generated: Tue Dec 11 16:04:51 2018
 ##################################################
 
 if __name__ == '__main__':
@@ -61,7 +61,7 @@ class top_block(gr.top_block, Qt.QWidget):
         ##################################################
         # Blocks
         ##################################################
-        self.pipe_sink_0 = pipe.sink(gr.sizeof_gr_complex*1, "ls")
+        self.pipe_sink_0 = pipe.sink(gr.sizeof_gr_complex*1, "cat")
         self.pipe_sink_0.set_unbuffered(False)
         self.blocks_throttle_0 = blocks.throttle(gr.sizeof_gr_complex*1, samp_rate,True)
         self.analog_sig_source_x_0 = analog.sig_source_c(samp_rate, analog.GR_COS_WAVE, 1000, 1, 0)
